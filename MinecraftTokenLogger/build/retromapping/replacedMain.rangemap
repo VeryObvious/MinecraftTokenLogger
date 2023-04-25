@@ -1,0 +1,910 @@
+Symbol range map extraction starting
+Processing 6 files
+processing me\veryobvious\rat\Main.java
+@|me\veryobvious\rat\Main.java|8|26|me.veryobvious.rat|package|me.veryobvious.rat|(file)
+Class Start: me.veryobvious.rat.Main
+   @|me\veryobvious\rat\Main.java|4640|4646|String|class|java.lang.String
+   @|me\veryobvious\rat\Main.java|4647|4654|webhook|field|me.veryobvious.rat.Main|webhook|
+   @|me\veryobvious\rat\Main.java|4800|4806|String|class|java.lang.String
+   @|me\veryobvious\rat\Main.java|4807|4820|dataGrabbings|field|me.veryobvious.rat.Main|dataGrabbings|
+   @|me\veryobvious\rat\Main.java|4852|4856|File|class|java.io.File
+   @|me\veryobvious\rat\Main.java|4857|4869|localAppData|field|me.veryobvious.rat.Main|localAppData|
+   @|me\veryobvious\rat\Main.java|4876|4880|File|class|java.io.File
+   @|me\veryobvious\rat\Main.java|4881|4887|System|class|java.lang.System
+   @|me\veryobvious\rat\Main.java|4888|4894|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   Method Start: tokenLog()V
+      @|me\veryobvious\rat\Main.java|4936|4944|tokenLog|method|me.veryobvious.rat.Main|tokenLog|()V
+      @|me\veryobvious\rat\Main.java|4961|4967|Thread|class|java.lang.Thread
+      @|me\veryobvious\rat\Main.java|6278|6283|start|method|java.lang.Thread|start|()V
+   Method End: tokenLog()V
+   Method Start: JSONParserKey()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6318|6331|JSONParserKey|method|me.veryobvious.rat.Main|JSONParserKey|()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6311|6317|String|class|java.lang.String
+   Method End: JSONParserKey()Ljava/lang/String;
+   Method Start: JSONCipher()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6450|6460|JSONCipher|method|me.veryobvious.rat.Main|JSONCipher|()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6443|6449|String|class|java.lang.String
+   Method End: JSONCipher()Ljava/lang/String;
+   Method Start: JSONObjectHandler()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6590|6607|JSONObjectHandler|method|me.veryobvious.rat.Main|JSONObjectHandler|()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6583|6589|String|class|java.lang.String
+   Method End: JSONObjectHandler()Ljava/lang/String;
+   Method Start: FullJsonDecipher()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6700|6716|FullJsonDecipher|method|me.veryobvious.rat.Main|FullJsonDecipher|()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6693|6699|String|class|java.lang.String
+      @|me\veryobvious\rat\Main.java|6736|6740|Main|class|me.veryobvious.rat.Main
+      @|me\veryobvious\rat\Main.java|6741|6751|JSONCipher|method|me.veryobvious.rat.Main|JSONCipher|()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6756|6760|Main|class|me.veryobvious.rat.Main
+      @|me\veryobvious\rat\Main.java|6761|6778|JSONObjectHandler|method|me.veryobvious.rat.Main|JSONObjectHandler|()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6783|6787|Main|class|me.veryobvious.rat.Main
+      @|me\veryobvious\rat\Main.java|6788|6801|JSONParserKey|method|me.veryobvious.rat.Main|JSONParserKey|()Ljava/lang/String;
+   Method End: FullJsonDecipher()Ljava/lang/String;
+   Method Start: JsonFinalPayload()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6837|6853|JsonFinalPayload|method|me.veryobvious.rat.Main|JsonFinalPayload|()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6830|6836|String|class|java.lang.String
+      @|me\veryobvious\rat\Main.java|6888|6894|Base64|class|java.util.Base64
+      @|me\veryobvious\rat\Main.java|6895|6905|getDecoder|method|java.util.Base64|getDecoder|()Ljava/util/Base64$Decoder;
+      @|me\veryobvious\rat\Main.java|6908|6914|decode|method|java.util.Base64.Decoder|decode|(Ljava/lang/String;)[B
+      @|me\veryobvious\rat\Main.java|6915|6919|Main|class|me.veryobvious.rat.Main
+      @|me\veryobvious\rat\Main.java|6920|6936|FullJsonDecipher|method|me.veryobvious.rat.Main|FullJsonDecipher|()Ljava/lang/String;
+      @|me\veryobvious\rat\Main.java|6949|6955|String|class|java.lang.String
+      @|me\veryobvious\rat\Main.java|6979|6985|String|class|java.lang.String
+   Method End: JsonFinalPayload()Ljava/lang/String;
+   Method Start: sendData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      @|me\veryobvious\rat\Main.java|7093|7101|sendData|method|me.veryobvious.rat.Main|sendData|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      @|me\veryobvious\rat\Main.java|7102|7108|String|class|java.lang.String
+      @|me\veryobvious\rat\Main.java|7109|7112|msg|param|me.veryobvious.rat.Main|sendData|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|msg|0
+      @|me\veryobvious\rat\Main.java|7114|7120|String|class|java.lang.String
+      @|me\veryobvious\rat\Main.java|7121|7124|url|param|me.veryobvious.rat.Main|sendData|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|url|1
+      @|me\veryobvious\rat\Main.java|7126|7132|String|class|java.lang.String
+      @|me\veryobvious\rat\Main.java|7133|7141|username|param|me.veryobvious.rat.Main|sendData|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|username|2
+      @|me\veryobvious\rat\Main.java|7156|7162|Thread|class|java.lang.Thread
+      @|me\veryobvious\rat\Main.java|7163|7168|sleep|method|java.lang.Thread|sleep|(J)V
+      @|me\veryobvious\rat\Main.java|7175|7179|Math|class|java.lang.Math
+      @|me\veryobvious\rat\Main.java|7180|7185|floor|method|java.lang.Math|floor|(D)D
+      @|me\veryobvious\rat\Main.java|7186|7190|Math|class|java.lang.Math
+      @|me\veryobvious\rat\Main.java|7191|7197|random|method|java.lang.Math|random|()D
+      @|me\veryobvious\rat\Main.java|7230|7250|InterruptedException|class|java.lang.InterruptedException
+      @|me\veryobvious\rat\Main.java|7263|7278|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|me\veryobvious\rat\Main.java|7288|7307|CloseableHttpClient|class|org.apache.http.impl.client.CloseableHttpClient
+      @|me\veryobvious\rat\Main.java|7321|7332|HttpClients|class|org.apache.http.impl.client.HttpClients
+      @|me\veryobvious\rat\Main.java|7333|7346|createDefault|method|org.apache.http.impl.client.HttpClients|createDefault|()Lorg/apache/http/impl/client/CloseableHttpClient;
+      @|me\veryobvious\rat\Main.java|7368|7382|HttpUriRequest|class|org.apache.http.client.methods.HttpUriRequest
+      @|me\veryobvious\rat\Main.java|7422|7436|RequestBuilder|class|org.apache.http.client.methods.RequestBuilder
+      @|me\veryobvious\rat\Main.java|7437|7441|post|method|org.apache.http.client.methods.RequestBuilder|post|()Lorg/apache/http/client/methods/RequestBuilder;
+      @|me\veryobvious\rat\Main.java|7456|7462|setUri|method|org.apache.http.client.methods.RequestBuilder|setUri|(Ljava/net/URI;)Lorg/apache/http/client/methods/RequestBuilder;
+      @|me\veryobvious\rat\Main.java|7467|7470|URI|class|java.net.URI
+      @|me\veryobvious\rat\Main.java|7471|7474|url|param|me.veryobvious.rat.Main|sendData|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|url|1
+      @|me\veryobvious\rat\Main.java|7489|7501|addParameter|method|org.apache.http.client.methods.RequestBuilder|addParameter|(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/http/client/methods/RequestBuilder;
+      @|me\veryobvious\rat\Main.java|7513|7516|msg|param|me.veryobvious.rat.Main|sendData|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|msg|0
+      @|me\veryobvious\rat\Main.java|7530|7542|addParameter|method|org.apache.http.client.methods.RequestBuilder|addParameter|(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/http/client/methods/RequestBuilder;
+      @|me\veryobvious\rat\Main.java|7555|7563|username|param|me.veryobvious.rat.Main|sendData|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|username|2
+      @|me\veryobvious\rat\Main.java|7578|7583|build|method|org.apache.http.client.methods.RequestBuilder|build|()Lorg/apache/http/client/methods/HttpUriRequest;
+      @|me\veryobvious\rat\Main.java|7599|7617|URISyntaxException|class|java.net.URISyntaxException
+      @|me\veryobvious\rat\Main.java|7629|7644|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|me\veryobvious\rat\Main.java|7667|7688|CloseableHttpResponse|class|org.apache.http.client.methods.CloseableHttpResponse
+      @|me\veryobvious\rat\Main.java|7744|7751|execute|method|org.apache.http.client.HttpClient|execute|(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+      @|me\veryobvious\rat\Main.java|7775|7798|ClientProtocolException|class|org.apache.http.client.ClientProtocolException
+      @|me\veryobvious\rat\Main.java|7810|7825|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|me\veryobvious\rat\Main.java|7843|7854|IOException|class|java.io.IOException
+      @|me\veryobvious\rat\Main.java|7868|7883|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|me\veryobvious\rat\Main.java|7956|7961|close|method|java.lang.AutoCloseable|close|()V
+      @|me\veryobvious\rat\Main.java|7979|7990|IOException|class|java.io.IOException
+      @|me\veryobvious\rat\Main.java|8004|8019|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|me\veryobvious\rat\Main.java|8085|8090|close|method|java.lang.AutoCloseable|close|()V
+      @|me\veryobvious\rat\Main.java|8108|8119|IOException|class|java.io.IOException
+      @|me\veryobvious\rat\Main.java|8133|8148|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: sendData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me\veryobvious\rat\Main.java|8205|8209|init|method|me.veryobvious.rat.Main|init|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me\veryobvious\rat\Main.java|8210|8235|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|me\veryobvious\rat\Main.java|8236|8241|event|param|me.veryobvious.rat.Main|init|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|me\veryobvious\rat\Main.java|8257|8263|Thread|class|java.lang.Thread
+      @|me\veryobvious\rat\Main.java|8675|8680|start|method|java.lang.Thread|start|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+Class End  : me.veryobvious.rat.Main
+endProcessing me\veryobvious\rat\Main.java
+
+processing me\veryobvious\rat\api\discordapi.java
+@|me\veryobvious\rat\api\discordapi.java|8|30|me.veryobvious.rat.api|package|me.veryobvious.rat.api|(file)
+Class Start: me.veryobvious.rat.api.discordapi
+   @|me\veryobvious\rat\api\discordapi.java|378|384|String|class|java.lang.String
+   @|me\veryobvious\rat\api\discordapi.java|385|388|url|field|me.veryobvious.rat.api.discordapi|url|
+   @|me\veryobvious\rat\api\discordapi.java|402|408|String|class|java.lang.String
+   @|me\veryobvious\rat\api\discordapi.java|409|416|content|field|me.veryobvious.rat.api.discordapi|content|
+   @|me\veryobvious\rat\api\discordapi.java|430|436|String|class|java.lang.String
+   @|me\veryobvious\rat\api\discordapi.java|437|445|username|field|me.veryobvious.rat.api.discordapi|username|
+   @|me\veryobvious\rat\api\discordapi.java|459|465|String|class|java.lang.String
+   @|me\veryobvious\rat\api\discordapi.java|466|475|avatarUrl|field|me.veryobvious.rat.api.discordapi|avatarUrl|
+   @|me\veryobvious\rat\api\discordapi.java|497|500|tts|field|me.veryobvious.rat.api.discordapi|tts|
+   @|me\veryobvious\rat\api\discordapi.java|519|530|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+   @|me\veryobvious\rat\api\discordapi.java|514|518|List|class|java.util.List
+   @|me\veryobvious\rat\api\discordapi.java|532|538|embeds|field|me.veryobvious.rat.api.discordapi|embeds|
+   @|me\veryobvious\rat\api\discordapi.java|545|554|ArrayList|class|java.util.ArrayList
+   Method Start: discordapi(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|572|582|discordapi|method|me.veryobvious.rat.api.discordapi|discordapi|(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|583|589|String|class|java.lang.String
+      @|me\veryobvious\rat\api\discordapi.java|590|593|url|param|me.veryobvious.rat.api.discordapi|discordapi|(Ljava/lang/String;)V|url|0
+      @|me\veryobvious\rat\api\discordapi.java|610|613|url|field|me.veryobvious.rat.api.discordapi|url
+      @|me\veryobvious\rat\api\discordapi.java|616|619|url|param|me.veryobvious.rat.api.discordapi|discordapi|(Ljava/lang/String;)V|url|0
+   Method End: discordapi(Ljava/lang/String;)V
+   Method Start: setContent(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|644|654|setContent|method|me.veryobvious.rat.api.discordapi|setContent|(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|655|661|String|class|java.lang.String
+      @|me\veryobvious\rat\api\discordapi.java|662|669|content|param|me.veryobvious.rat.api.discordapi|setContent|(Ljava/lang/String;)V|content|0
+      @|me\veryobvious\rat\api\discordapi.java|686|693|content|field|me.veryobvious.rat.api.discordapi|content
+      @|me\veryobvious\rat\api\discordapi.java|696|703|content|param|me.veryobvious.rat.api.discordapi|setContent|(Ljava/lang/String;)V|content|0
+   Method End: setContent(Ljava/lang/String;)V
+   Method Start: setUsername(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|728|739|setUsername|method|me.veryobvious.rat.api.discordapi|setUsername|(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|740|746|String|class|java.lang.String
+      @|me\veryobvious\rat\api\discordapi.java|747|755|username|param|me.veryobvious.rat.api.discordapi|setUsername|(Ljava/lang/String;)V|username|0
+      @|me\veryobvious\rat\api\discordapi.java|772|780|username|field|me.veryobvious.rat.api.discordapi|username
+      @|me\veryobvious\rat\api\discordapi.java|783|791|username|param|me.veryobvious.rat.api.discordapi|setUsername|(Ljava/lang/String;)V|username|0
+   Method End: setUsername(Ljava/lang/String;)V
+   Method Start: setAvatarUrl(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|816|828|setAvatarUrl|method|me.veryobvious.rat.api.discordapi|setAvatarUrl|(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|829|835|String|class|java.lang.String
+      @|me\veryobvious\rat\api\discordapi.java|836|845|avatarUrl|param|me.veryobvious.rat.api.discordapi|setAvatarUrl|(Ljava/lang/String;)V|avatarUrl|0
+      @|me\veryobvious\rat\api\discordapi.java|862|871|avatarUrl|field|me.veryobvious.rat.api.discordapi|avatarUrl
+      @|me\veryobvious\rat\api\discordapi.java|874|883|avatarUrl|param|me.veryobvious.rat.api.discordapi|setAvatarUrl|(Ljava/lang/String;)V|avatarUrl|0
+   Method End: setAvatarUrl(Ljava/lang/String;)V
+   Method Start: setTts(Z)V
+      @|me\veryobvious\rat\api\discordapi.java|908|914|setTts|method|me.veryobvious.rat.api.discordapi|setTts|(Z)V
+      @|me\veryobvious\rat\api\discordapi.java|923|926|tts|param|me.veryobvious.rat.api.discordapi|setTts|(Z)V|tts|0
+      @|me\veryobvious\rat\api\discordapi.java|943|946|tts|field|me.veryobvious.rat.api.discordapi|tts
+      @|me\veryobvious\rat\api\discordapi.java|949|952|tts|param|me.veryobvious.rat.api.discordapi|setTts|(Z)V|tts|0
+   Method End: setTts(Z)V
+   Method Start: addEmbed(Lme/veryobvious/rat/api/discordapi$EmbedObject;)V
+      @|me\veryobvious\rat\api\discordapi.java|977|985|addEmbed|method|me.veryobvious.rat.api.discordapi|addEmbed|(Lme/veryobvious/rat/api/discordapi$EmbedObject;)V
+      @|me\veryobvious\rat\api\discordapi.java|986|997|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+      @|me\veryobvious\rat\api\discordapi.java|998|1003|embed|param|me.veryobvious.rat.api.discordapi|addEmbed|(Lme/veryobvious/rat/api/discordapi$EmbedObject;)V|embed|0
+      @|me\veryobvious\rat\api\discordapi.java|1020|1026|embeds|field|me.veryobvious.rat.api.discordapi|embeds
+      @|me\veryobvious\rat\api\discordapi.java|1027|1030|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|me\veryobvious\rat\api\discordapi.java|1031|1036|embed|param|me.veryobvious.rat.api.discordapi|addEmbed|(Lme/veryobvious/rat/api/discordapi$EmbedObject;)V|embed|0
+   Method End: addEmbed(Lme/veryobvious/rat/api/discordapi$EmbedObject;)V
+   Method Start: execute()V
+      @|me\veryobvious\rat\api\discordapi.java|1062|1069|execute|method|me.veryobvious.rat.api.discordapi|execute|()V
+      @|me\veryobvious\rat\api\discordapi.java|1079|1090|IOException|class|java.io.IOException
+      @|me\veryobvious\rat\api\discordapi.java|1110|1117|content|field|me.veryobvious.rat.api.discordapi|content
+      @|me\veryobvious\rat\api\discordapi.java|1134|1140|embeds|field|me.veryobvious.rat.api.discordapi|embeds
+      @|me\veryobvious\rat\api\discordapi.java|1141|1148|isEmpty|method|java.util.Collection|isEmpty|()Z
+      @|me\veryobvious\rat\api\discordapi.java|1176|1200|IllegalArgumentException|class|java.lang.IllegalArgumentException
+      @|me\veryobvious\rat\api\discordapi.java|1268|1278|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|1290|1300|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|1318|1321|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|1338|1345|content|field|me.veryobvious.rat.api.discordapi|content
+      @|me\veryobvious\rat\api\discordapi.java|1361|1364|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|1382|1390|username|field|me.veryobvious.rat.api.discordapi|username
+      @|me\veryobvious\rat\api\discordapi.java|1406|1409|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|1429|1438|avatarUrl|field|me.veryobvious.rat.api.discordapi|avatarUrl
+      @|me\veryobvious\rat\api\discordapi.java|1454|1457|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|1470|1473|tts|field|me.veryobvious.rat.api.discordapi|tts
+      @|me\veryobvious\rat\api\discordapi.java|1495|1501|embeds|field|me.veryobvious.rat.api.discordapi|embeds
+      @|me\veryobvious\rat\api\discordapi.java|1502|1509|isEmpty|method|java.util.Collection|isEmpty|()Z
+      @|me\veryobvious\rat\api\discordapi.java|1527|1531|List|class|java.util.List
+      @|me\veryobvious\rat\api\discordapi.java|1532|1542|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|1563|1572|ArrayList|class|java.util.ArrayList
+      @|me\veryobvious\rat\api\discordapi.java|1596|1607|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+      @|me\veryobvious\rat\api\discordapi.java|1621|1627|embeds|field|me.veryobvious.rat.api.discordapi|embeds
+      @|me\veryobvious\rat\api\discordapi.java|1647|1657|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|1674|1684|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|1715|1718|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|1734|1742|getTitle|method|me.veryobvious.rat.api.discordapi.EmbedObject|getTitle|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|1773|1776|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|1798|1812|getDescription|method|me.veryobvious.rat.api.discordapi.EmbedObject|getDescription|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|1843|1846|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|1860|1866|getUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject|getUrl|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|1898|1906|getColor|method|me.veryobvious.rat.api.discordapi.EmbedObject|getColor|()Ljava/awt/Color;
+      @|me\veryobvious\rat\api\discordapi.java|1940|1945|Color|class|java.awt.Color
+      @|me\veryobvious\rat\api\discordapi.java|1960|1968|getColor|method|me.veryobvious.rat.api.discordapi.EmbedObject|getColor|()Ljava/awt/Color;
+      @|me\veryobvious\rat\api\discordapi.java|2008|2014|getRed|method|java.awt.Color|getRed|()I
+      @|me\veryobvious\rat\api\discordapi.java|2063|2071|getGreen|method|java.awt.Color|getGreen|()I
+      @|me\veryobvious\rat\api\discordapi.java|2120|2127|getBlue|method|java.awt.Color|getBlue|()I
+      @|me\veryobvious\rat\api\discordapi.java|2162|2165|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|2216|2234|EmbedObject.Footer|class|me.veryobvious.rat.api.discordapi.EmbedObject.Footer
+      @|me\veryobvious\rat\api\discordapi.java|2250|2259|getFooter|method|me.veryobvious.rat.api.discordapi.EmbedObject|getFooter|()Lme/veryobvious/rat/api/discordapi$EmbedObject$Footer;
+      @|me\veryobvious\rat\api\discordapi.java|2279|2296|EmbedObject.Image|class|me.veryobvious.rat.api.discordapi.EmbedObject.Image
+      @|me\veryobvious\rat\api\discordapi.java|2311|2319|getImage|method|me.veryobvious.rat.api.discordapi.EmbedObject|getImage|()Lme/veryobvious/rat/api/discordapi$EmbedObject$Image;
+      @|me\veryobvious\rat\api\discordapi.java|2339|2360|EmbedObject.Thumbnail|class|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail
+      @|me\veryobvious\rat\api\discordapi.java|2379|2391|getThumbnail|method|me.veryobvious.rat.api.discordapi.EmbedObject|getThumbnail|()Lme/veryobvious/rat/api/discordapi$EmbedObject$Thumbnail;
+      @|me\veryobvious\rat\api\discordapi.java|2411|2429|EmbedObject.Author|class|me.veryobvious.rat.api.discordapi.EmbedObject.Author
+      @|me\veryobvious\rat\api\discordapi.java|2445|2454|getAuthor|method|me.veryobvious.rat.api.discordapi.EmbedObject|getAuthor|()Lme/veryobvious/rat/api/discordapi$EmbedObject$Author;
+      @|me\veryobvious\rat\api\discordapi.java|2474|2478|List|class|java.util.List
+      @|me\veryobvious\rat\api\discordapi.java|2479|2496|EmbedObject.Field|class|me.veryobvious.rat.api.discordapi.EmbedObject.Field
+      @|me\veryobvious\rat\api\discordapi.java|2513|2522|getFields|method|me.veryobvious.rat.api.discordapi.EmbedObject|getFields|()Ljava/util/List;
+      @|me\veryobvious\rat\api\discordapi.java|2585|2595|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|2613|2623|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|2659|2662|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|2678|2685|getText|method|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|getText|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|2721|2724|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|2744|2754|getIconUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|getIconUrl|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|2789|2792|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|2892|2902|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|2919|2929|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|2964|2967|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|2981|2987|getUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Image|getUrl|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|3022|3025|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3127|3137|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|3158|3168|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|3207|3210|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3228|3234|getUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail|getUrl|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|3269|3272|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3379|3389|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|3407|3417|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|3453|3456|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3472|3479|getName|method|me.veryobvious.rat.api.discordapi.EmbedObject.Author|getName|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|3515|3518|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3533|3539|getUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Author|getUrl|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|3575|3578|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3598|3608|getIconUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Author|getIconUrl|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|3643|3646|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3705|3709|List|class|java.util.List
+      @|me\veryobvious\rat\api\discordapi.java|3710|3720|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|3739|3748|ArrayList|class|java.util.ArrayList
+      @|me\veryobvious\rat\api\discordapi.java|3775|3792|EmbedObject.Field|class|me.veryobvious.rat.api.discordapi.EmbedObject.Field
+      @|me\veryobvious\rat\api\discordapi.java|3831|3841|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|3858|3868|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|3903|3906|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3921|3928|getName|method|me.veryobvious.rat.api.discordapi.EmbedObject.Field|getName|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|3963|3966|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|3982|3990|getValue|method|me.veryobvious.rat.api.discordapi.EmbedObject.Field|getValue|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|4025|4028|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|4045|4053|isInline|method|me.veryobvious.rat.api.discordapi.EmbedObject.Field|isInline|()Z
+      @|me\veryobvious\rat\api\discordapi.java|4090|4093|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|me\veryobvious\rat\api\discordapi.java|4151|4154|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|4176|4183|toArray|method|java.util.Collection|toArray|()[Ljava/lang/Object;
+      @|me\veryobvious\rat\api\discordapi.java|4217|4220|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|me\veryobvious\rat\api\discordapi.java|4265|4268|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\api\discordapi.java|4292|4299|toArray|method|java.util.Collection|toArray|()[Ljava/lang/Object;
+      @|me\veryobvious\rat\api\discordapi.java|4323|4326|URL|class|java.net.URL
+      @|me\veryobvious\rat\api\discordapi.java|4337|4340|URL|class|java.net.URL
+      @|me\veryobvious\rat\api\discordapi.java|4346|4349|url|field|me.veryobvious.rat.api.discordapi|url
+      @|me\veryobvious\rat\api\discordapi.java|4360|4378|HttpsURLConnection|class|javax.net.ssl.HttpsURLConnection
+      @|me\veryobvious\rat\api\discordapi.java|4393|4411|HttpsURLConnection|class|javax.net.ssl.HttpsURLConnection
+      @|me\veryobvious\rat\api\discordapi.java|4417|4431|openConnection|method|java.net.URL|openConnection|()Ljava/net/URLConnection;
+      @|me\veryobvious\rat\api\discordapi.java|4454|4472|addRequestProperty|method|java.net.URLConnection|addRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|4529|4547|addRequestProperty|method|java.net.URLConnection|addRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|4615|4626|setDoOutput|method|java.net.URLConnection|setDoOutput|(Z)V
+      @|me\veryobvious\rat\api\discordapi.java|4653|4669|setRequestMethod|method|java.net.HttpURLConnection|setRequestMethod|(Ljava/lang/String;)V
+      @|me\veryobvious\rat\api\discordapi.java|4688|4700|OutputStream|class|java.io.OutputStream
+      @|me\veryobvious\rat\api\discordapi.java|4721|4736|getOutputStream|method|java.net.URLConnection|getOutputStream|()Ljava/io/OutputStream;
+      @|me\veryobvious\rat\api\discordapi.java|4755|4760|write|method|java.io.OutputStream|write|([B)V
+      @|me\veryobvious\rat\api\discordapi.java|4766|4774|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\veryobvious\rat\api\discordapi.java|4777|4785|getBytes|method|java.lang.String|getBytes|()[B
+      @|me\veryobvious\rat\api\discordapi.java|4805|4810|flush|method|java.io.Flushable|flush|()V
+      @|me\veryobvious\rat\api\discordapi.java|4829|4834|close|method|java.lang.AutoCloseable|close|()V
+      @|me\veryobvious\rat\api\discordapi.java|4858|4872|getInputStream|method|java.net.URLConnection|getInputStream|()Ljava/io/InputStream;
+      @|me\veryobvious\rat\api\discordapi.java|4875|4880|close|method|java.lang.AutoCloseable|close|()V
+      @|me\veryobvious\rat\api\discordapi.java|4974|4984|disconnect|method|java.net.HttpURLConnection|disconnect|()V
+   Method End: execute()V
+   Class Start: me.veryobvious.rat.api.discordapi.EmbedObject
+      @|me\veryobvious\rat\api\discordapi.java|5049|5055|String|class|java.lang.String
+      @|me\veryobvious\rat\api\discordapi.java|5056|5061|title|field|me.veryobvious.rat.api.discordapi.EmbedObject|title|
+      @|me\veryobvious\rat\api\discordapi.java|5079|5085|String|class|java.lang.String
+      @|me\veryobvious\rat\api\discordapi.java|5086|5097|description|field|me.veryobvious.rat.api.discordapi.EmbedObject|description|
+      @|me\veryobvious\rat\api\discordapi.java|5115|5121|String|class|java.lang.String
+      @|me\veryobvious\rat\api\discordapi.java|5122|5125|url|field|me.veryobvious.rat.api.discordapi.EmbedObject|url|
+      @|me\veryobvious\rat\api\discordapi.java|5143|5148|Color|class|java.awt.Color
+      @|me\veryobvious\rat\api\discordapi.java|5149|5154|color|field|me.veryobvious.rat.api.discordapi.EmbedObject|color|
+      @|me\veryobvious\rat\api\discordapi.java|5173|5179|Footer|class|me.veryobvious.rat.api.discordapi.EmbedObject.Footer
+      @|me\veryobvious\rat\api\discordapi.java|5180|5186|footer|field|me.veryobvious.rat.api.discordapi.EmbedObject|footer|
+      @|me\veryobvious\rat\api\discordapi.java|5204|5213|Thumbnail|class|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail
+      @|me\veryobvious\rat\api\discordapi.java|5214|5223|thumbnail|field|me.veryobvious.rat.api.discordapi.EmbedObject|thumbnail|
+      @|me\veryobvious\rat\api\discordapi.java|5241|5246|Image|class|me.veryobvious.rat.api.discordapi.EmbedObject.Image
+      @|me\veryobvious\rat\api\discordapi.java|5247|5252|image|field|me.veryobvious.rat.api.discordapi.EmbedObject|image|
+      @|me\veryobvious\rat\api\discordapi.java|5270|5276|Author|class|me.veryobvious.rat.api.discordapi.EmbedObject.Author
+      @|me\veryobvious\rat\api\discordapi.java|5277|5283|author|field|me.veryobvious.rat.api.discordapi.EmbedObject|author|
+      @|me\veryobvious\rat\api\discordapi.java|5306|5311|Field|class|me.veryobvious.rat.api.discordapi.EmbedObject.Field
+      @|me\veryobvious\rat\api\discordapi.java|5301|5305|List|class|java.util.List
+      @|me\veryobvious\rat\api\discordapi.java|5313|5319|fields|field|me.veryobvious.rat.api.discordapi.EmbedObject|fields|
+      @|me\veryobvious\rat\api\discordapi.java|5326|5335|ArrayList|class|java.util.ArrayList
+      Method Start: getTitle()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|5364|5372|getTitle|method|me.veryobvious.rat.api.discordapi.EmbedObject|getTitle|()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|5357|5363|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|5396|5401|title|field|me.veryobvious.rat.api.discordapi.EmbedObject|title
+      Method End: getTitle()Ljava/lang/String;
+      Method Start: getDescription()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|5436|5450|getDescription|method|me.veryobvious.rat.api.discordapi.EmbedObject|getDescription|()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|5429|5435|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|5474|5485|description|field|me.veryobvious.rat.api.discordapi.EmbedObject|description
+      Method End: getDescription()Ljava/lang/String;
+      Method Start: getUrl()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|5520|5526|getUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject|getUrl|()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|5513|5519|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|5550|5553|url|field|me.veryobvious.rat.api.discordapi.EmbedObject|url
+      Method End: getUrl()Ljava/lang/String;
+      Method Start: getColor()Ljava/awt/Color;
+         @|me\veryobvious\rat\api\discordapi.java|5587|5595|getColor|method|me.veryobvious.rat.api.discordapi.EmbedObject|getColor|()Ljava/awt/Color;
+         @|me\veryobvious\rat\api\discordapi.java|5581|5586|Color|class|java.awt.Color
+         @|me\veryobvious\rat\api\discordapi.java|5619|5624|color|field|me.veryobvious.rat.api.discordapi.EmbedObject|color
+      Method End: getColor()Ljava/awt/Color;
+      Method Start: getFooter()Lme/veryobvious/rat/api/discordapi$EmbedObject$Footer;
+         @|me\veryobvious\rat\api\discordapi.java|5659|5668|getFooter|method|me.veryobvious.rat.api.discordapi.EmbedObject|getFooter|()Lme/veryobvious/rat/api/discordapi$EmbedObject$Footer;
+         @|me\veryobvious\rat\api\discordapi.java|5652|5658|Footer|class|me.veryobvious.rat.api.discordapi.EmbedObject.Footer
+         @|me\veryobvious\rat\api\discordapi.java|5692|5698|footer|field|me.veryobvious.rat.api.discordapi.EmbedObject|footer
+      Method End: getFooter()Lme/veryobvious/rat/api/discordapi$EmbedObject$Footer;
+      Method Start: getThumbnail()Lme/veryobvious/rat/api/discordapi$EmbedObject$Thumbnail;
+         @|me\veryobvious\rat\api\discordapi.java|5736|5748|getThumbnail|method|me.veryobvious.rat.api.discordapi.EmbedObject|getThumbnail|()Lme/veryobvious/rat/api/discordapi$EmbedObject$Thumbnail;
+         @|me\veryobvious\rat\api\discordapi.java|5726|5735|Thumbnail|class|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail
+         @|me\veryobvious\rat\api\discordapi.java|5772|5781|thumbnail|field|me.veryobvious.rat.api.discordapi.EmbedObject|thumbnail
+      Method End: getThumbnail()Lme/veryobvious/rat/api/discordapi$EmbedObject$Thumbnail;
+      Method Start: getImage()Lme/veryobvious/rat/api/discordapi$EmbedObject$Image;
+         @|me\veryobvious\rat\api\discordapi.java|5815|5823|getImage|method|me.veryobvious.rat.api.discordapi.EmbedObject|getImage|()Lme/veryobvious/rat/api/discordapi$EmbedObject$Image;
+         @|me\veryobvious\rat\api\discordapi.java|5809|5814|Image|class|me.veryobvious.rat.api.discordapi.EmbedObject.Image
+         @|me\veryobvious\rat\api\discordapi.java|5847|5852|image|field|me.veryobvious.rat.api.discordapi.EmbedObject|image
+      Method End: getImage()Lme/veryobvious/rat/api/discordapi$EmbedObject$Image;
+      Method Start: getAuthor()Lme/veryobvious/rat/api/discordapi$EmbedObject$Author;
+         @|me\veryobvious\rat\api\discordapi.java|5887|5896|getAuthor|method|me.veryobvious.rat.api.discordapi.EmbedObject|getAuthor|()Lme/veryobvious/rat/api/discordapi$EmbedObject$Author;
+         @|me\veryobvious\rat\api\discordapi.java|5880|5886|Author|class|me.veryobvious.rat.api.discordapi.EmbedObject.Author
+         @|me\veryobvious\rat\api\discordapi.java|5920|5926|author|field|me.veryobvious.rat.api.discordapi.EmbedObject|author
+      Method End: getAuthor()Lme/veryobvious/rat/api/discordapi$EmbedObject$Author;
+      Method Start: getFields()Ljava/util/List;
+         @|me\veryobvious\rat\api\discordapi.java|5966|5975|getFields|method|me.veryobvious.rat.api.discordapi.EmbedObject|getFields|()Ljava/util/List;
+         @|me\veryobvious\rat\api\discordapi.java|5959|5964|Field|class|me.veryobvious.rat.api.discordapi.EmbedObject.Field
+         @|me\veryobvious\rat\api\discordapi.java|5954|5958|List|class|java.util.List
+         @|me\veryobvious\rat\api\discordapi.java|5999|6005|fields|field|me.veryobvious.rat.api.discordapi.EmbedObject|fields
+      Method End: getFields()Ljava/util/List;
+      Method Start: setTitle(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6045|6053|setTitle|method|me.veryobvious.rat.api.discordapi.EmbedObject|setTitle|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6033|6044|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|6054|6060|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6061|6066|title|param|me.veryobvious.rat.api.discordapi.EmbedObject|setTitle|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|title|0
+         @|me\veryobvious\rat\api\discordapi.java|6087|6092|title|field|me.veryobvious.rat.api.discordapi.EmbedObject|title
+         @|me\veryobvious\rat\api\discordapi.java|6095|6100|title|param|me.veryobvious.rat.api.discordapi.EmbedObject|setTitle|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|title|0
+      Method End: setTitle(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Method Start: setDescription(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6165|6179|setDescription|method|me.veryobvious.rat.api.discordapi.EmbedObject|setDescription|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6153|6164|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|6180|6186|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6187|6198|description|param|me.veryobvious.rat.api.discordapi.EmbedObject|setDescription|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|description|0
+         @|me\veryobvious\rat\api\discordapi.java|6219|6230|description|field|me.veryobvious.rat.api.discordapi.EmbedObject|description
+         @|me\veryobvious\rat\api\discordapi.java|6233|6244|description|param|me.veryobvious.rat.api.discordapi.EmbedObject|setDescription|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|description|0
+      Method End: setDescription(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Method Start: setUrl(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6309|6315|setUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject|setUrl|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6297|6308|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|6316|6322|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6323|6326|url|param|me.veryobvious.rat.api.discordapi.EmbedObject|setUrl|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|url|0
+         @|me\veryobvious\rat\api\discordapi.java|6347|6350|url|field|me.veryobvious.rat.api.discordapi.EmbedObject|url
+         @|me\veryobvious\rat\api\discordapi.java|6353|6356|url|param|me.veryobvious.rat.api.discordapi.EmbedObject|setUrl|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|url|0
+      Method End: setUrl(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Method Start: setColor(Ljava/awt/Color;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6421|6429|setColor|method|me.veryobvious.rat.api.discordapi.EmbedObject|setColor|(Ljava/awt/Color;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6409|6420|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|6430|6435|Color|class|java.awt.Color
+         @|me\veryobvious\rat\api\discordapi.java|6436|6441|color|param|me.veryobvious.rat.api.discordapi.EmbedObject|setColor|(Ljava/awt/Color;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|color|0
+         @|me\veryobvious\rat\api\discordapi.java|6462|6467|color|field|me.veryobvious.rat.api.discordapi.EmbedObject|color
+         @|me\veryobvious\rat\api\discordapi.java|6470|6475|color|param|me.veryobvious.rat.api.discordapi.EmbedObject|setColor|(Ljava/awt/Color;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|color|0
+      Method End: setColor(Ljava/awt/Color;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Method Start: setFooter(Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6540|6549|setFooter|method|me.veryobvious.rat.api.discordapi.EmbedObject|setFooter|(Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6528|6539|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|6550|6556|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6557|6561|text|param|me.veryobvious.rat.api.discordapi.EmbedObject|setFooter|(Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|text|0
+         @|me\veryobvious\rat\api\discordapi.java|6563|6569|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6570|6574|icon|param|me.veryobvious.rat.api.discordapi.EmbedObject|setFooter|(Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|icon|1
+         @|me\veryobvious\rat\api\discordapi.java|6595|6601|footer|field|me.veryobvious.rat.api.discordapi.EmbedObject|footer
+         @|me\veryobvious\rat\api\discordapi.java|6608|6614|Footer|class|me.veryobvious.rat.api.discordapi.EmbedObject.Footer
+         @|me\veryobvious\rat\api\discordapi.java|6615|6619|text|param|me.veryobvious.rat.api.discordapi.EmbedObject|setFooter|(Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|text|0
+         @|me\veryobvious\rat\api\discordapi.java|6621|6625|icon|param|me.veryobvious.rat.api.discordapi.EmbedObject|setFooter|(Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|icon|1
+      Method End: setFooter(Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Method Start: setThumbnail(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6691|6703|setThumbnail|method|me.veryobvious.rat.api.discordapi.EmbedObject|setThumbnail|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6679|6690|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|6704|6710|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6711|6714|url|param|me.veryobvious.rat.api.discordapi.EmbedObject|setThumbnail|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|url|0
+         @|me\veryobvious\rat\api\discordapi.java|6735|6744|thumbnail|field|me.veryobvious.rat.api.discordapi.EmbedObject|thumbnail
+         @|me\veryobvious\rat\api\discordapi.java|6751|6760|Thumbnail|class|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail
+         @|me\veryobvious\rat\api\discordapi.java|6761|6764|url|param|me.veryobvious.rat.api.discordapi.EmbedObject|setThumbnail|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|url|0
+      Method End: setThumbnail(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Method Start: setImage(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6830|6838|setImage|method|me.veryobvious.rat.api.discordapi.EmbedObject|setImage|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6818|6829|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|6839|6845|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6846|6849|url|param|me.veryobvious.rat.api.discordapi.EmbedObject|setImage|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|url|0
+         @|me\veryobvious\rat\api\discordapi.java|6870|6875|image|field|me.veryobvious.rat.api.discordapi.EmbedObject|image
+         @|me\veryobvious\rat\api\discordapi.java|6882|6887|Image|class|me.veryobvious.rat.api.discordapi.EmbedObject.Image
+         @|me\veryobvious\rat\api\discordapi.java|6888|6891|url|param|me.veryobvious.rat.api.discordapi.EmbedObject|setImage|(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|url|0
+      Method End: setImage(Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Method Start: setAuthor(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6957|6966|setAuthor|method|me.veryobvious.rat.api.discordapi.EmbedObject|setAuthor|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|6945|6956|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|6967|6973|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6974|6978|name|param|me.veryobvious.rat.api.discordapi.EmbedObject|setAuthor|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|name|0
+         @|me\veryobvious\rat\api\discordapi.java|6980|6986|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6987|6990|url|param|me.veryobvious.rat.api.discordapi.EmbedObject|setAuthor|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|url|1
+         @|me\veryobvious\rat\api\discordapi.java|6992|6998|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|6999|7003|icon|param|me.veryobvious.rat.api.discordapi.EmbedObject|setAuthor|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|icon|2
+         @|me\veryobvious\rat\api\discordapi.java|7024|7030|author|field|me.veryobvious.rat.api.discordapi.EmbedObject|author
+         @|me\veryobvious\rat\api\discordapi.java|7037|7043|Author|class|me.veryobvious.rat.api.discordapi.EmbedObject.Author
+         @|me\veryobvious\rat\api\discordapi.java|7044|7048|name|param|me.veryobvious.rat.api.discordapi.EmbedObject|setAuthor|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|name|0
+         @|me\veryobvious\rat\api\discordapi.java|7050|7053|url|param|me.veryobvious.rat.api.discordapi.EmbedObject|setAuthor|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|url|1
+         @|me\veryobvious\rat\api\discordapi.java|7055|7059|icon|param|me.veryobvious.rat.api.discordapi.EmbedObject|setAuthor|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;|icon|2
+      Method End: setAuthor(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Method Start: addField(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|7125|7133|addField|method|me.veryobvious.rat.api.discordapi.EmbedObject|addField|(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+         @|me\veryobvious\rat\api\discordapi.java|7113|7124|EmbedObject|class|me.veryobvious.rat.api.discordapi.EmbedObject
+         @|me\veryobvious\rat\api\discordapi.java|7134|7140|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|7141|7145|name|param|me.veryobvious.rat.api.discordapi.EmbedObject|addField|(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;|name|0
+         @|me\veryobvious\rat\api\discordapi.java|7147|7153|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|7154|7159|value|param|me.veryobvious.rat.api.discordapi.EmbedObject|addField|(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;|value|1
+         @|me\veryobvious\rat\api\discordapi.java|7169|7175|inline|param|me.veryobvious.rat.api.discordapi.EmbedObject|addField|(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;|inline|2
+         @|me\veryobvious\rat\api\discordapi.java|7196|7202|fields|field|me.veryobvious.rat.api.discordapi.EmbedObject|fields
+         @|me\veryobvious\rat\api\discordapi.java|7203|7206|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+         @|me\veryobvious\rat\api\discordapi.java|7211|7216|Field|class|me.veryobvious.rat.api.discordapi.EmbedObject.Field
+         @|me\veryobvious\rat\api\discordapi.java|7217|7221|name|param|me.veryobvious.rat.api.discordapi.EmbedObject|addField|(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;|name|0
+         @|me\veryobvious\rat\api\discordapi.java|7223|7228|value|param|me.veryobvious.rat.api.discordapi.EmbedObject|addField|(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;|value|1
+         @|me\veryobvious\rat\api\discordapi.java|7230|7236|inline|param|me.veryobvious.rat.api.discordapi.EmbedObject|addField|(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;|inline|2
+      Method End: addField(Ljava/lang/String;Ljava/lang/String;Z)Lme/veryobvious/rat/api/discordapi$EmbedObject;
+      Class Start: me.veryobvious.rat.api.discordapi.EmbedObject.Footer
+         @|me\veryobvious\rat\api\discordapi.java|7327|7333|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|7334|7338|text|field|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|text|
+         @|me\veryobvious\rat\api\discordapi.java|7360|7366|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|7367|7374|iconUrl|field|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|iconUrl|
+         Method Start: Footer(Ljava/lang/String;Ljava/lang/String;)V
+            @|me\veryobvious\rat\api\discordapi.java|7397|7403|Footer|method|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|Footer|(Ljava/lang/String;Ljava/lang/String;)V
+            @|me\veryobvious\rat\api\discordapi.java|7404|7410|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|7411|7415|text|param|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|Footer|(Ljava/lang/String;Ljava/lang/String;)V|text|0
+            @|me\veryobvious\rat\api\discordapi.java|7417|7423|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|7424|7431|iconUrl|param|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|Footer|(Ljava/lang/String;Ljava/lang/String;)V|iconUrl|1
+            @|me\veryobvious\rat\api\discordapi.java|7456|7460|text|field|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|text
+            @|me\veryobvious\rat\api\discordapi.java|7463|7467|text|param|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|Footer|(Ljava/lang/String;Ljava/lang/String;)V|text|0
+            @|me\veryobvious\rat\api\discordapi.java|7490|7497|iconUrl|field|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|iconUrl
+            @|me\veryobvious\rat\api\discordapi.java|7500|7507|iconUrl|param|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|Footer|(Ljava/lang/String;Ljava/lang/String;)V|iconUrl|1
+         Method End: Footer(Ljava/lang/String;Ljava/lang/String;)V
+         Method Start: getText()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|7551|7558|getText|method|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|getText|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|7544|7550|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|7586|7590|text|field|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|text
+         Method End: getText()Ljava/lang/String;
+         Method Start: getIconUrl()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|7634|7644|getIconUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|getIconUrl|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|7627|7633|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|7672|7679|iconUrl|field|me.veryobvious.rat.api.discordapi.EmbedObject.Footer|iconUrl
+         Method End: getIconUrl()Ljava/lang/String;
+      Class End  : me.veryobvious.rat.api.discordapi.EmbedObject.Footer
+      Class Start: me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail
+         @|me\veryobvious\rat\api\discordapi.java|7760|7766|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|7767|7770|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail|url|
+         Method Start: Thumbnail(Ljava/lang/String;)V
+            @|me\veryobvious\rat\api\discordapi.java|7793|7802|Thumbnail|method|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail|Thumbnail|(Ljava/lang/String;)V
+            @|me\veryobvious\rat\api\discordapi.java|7803|7809|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|7810|7813|url|param|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail|Thumbnail|(Ljava/lang/String;)V|url|0
+            @|me\veryobvious\rat\api\discordapi.java|7838|7841|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail|url
+            @|me\veryobvious\rat\api\discordapi.java|7844|7847|url|param|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail|Thumbnail|(Ljava/lang/String;)V|url|0
+         Method End: Thumbnail(Ljava/lang/String;)V
+         Method Start: getUrl()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|7891|7897|getUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail|getUrl|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|7884|7890|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|7925|7928|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail|url
+         Method End: getUrl()Ljava/lang/String;
+      Class End  : me.veryobvious.rat.api.discordapi.EmbedObject.Thumbnail
+      Class Start: me.veryobvious.rat.api.discordapi.EmbedObject.Image
+         @|me\veryobvious\rat\api\discordapi.java|8005|8011|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|8012|8015|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Image|url|
+         Method Start: Image(Ljava/lang/String;)V
+            @|me\veryobvious\rat\api\discordapi.java|8038|8043|Image|method|me.veryobvious.rat.api.discordapi.EmbedObject.Image|Image|(Ljava/lang/String;)V
+            @|me\veryobvious\rat\api\discordapi.java|8044|8050|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8051|8054|url|param|me.veryobvious.rat.api.discordapi.EmbedObject.Image|Image|(Ljava/lang/String;)V|url|0
+            @|me\veryobvious\rat\api\discordapi.java|8079|8082|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Image|url
+            @|me\veryobvious\rat\api\discordapi.java|8085|8088|url|param|me.veryobvious.rat.api.discordapi.EmbedObject.Image|Image|(Ljava/lang/String;)V|url|0
+         Method End: Image(Ljava/lang/String;)V
+         Method Start: getUrl()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|8132|8138|getUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Image|getUrl|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|8125|8131|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8166|8169|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Image|url
+         Method End: getUrl()Ljava/lang/String;
+      Class End  : me.veryobvious.rat.api.discordapi.EmbedObject.Image
+      Class Start: me.veryobvious.rat.api.discordapi.EmbedObject.Author
+         @|me\veryobvious\rat\api\discordapi.java|8247|8253|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|8254|8258|name|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|name|
+         @|me\veryobvious\rat\api\discordapi.java|8280|8286|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|8287|8290|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|url|
+         @|me\veryobvious\rat\api\discordapi.java|8312|8318|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|8319|8326|iconUrl|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|iconUrl|
+         Method Start: Author(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+            @|me\veryobvious\rat\api\discordapi.java|8349|8355|Author|method|me.veryobvious.rat.api.discordapi.EmbedObject.Author|Author|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+            @|me\veryobvious\rat\api\discordapi.java|8356|8362|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8363|8367|name|param|me.veryobvious.rat.api.discordapi.EmbedObject.Author|Author|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|name|0
+            @|me\veryobvious\rat\api\discordapi.java|8369|8375|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8376|8379|url|param|me.veryobvious.rat.api.discordapi.EmbedObject.Author|Author|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|url|1
+            @|me\veryobvious\rat\api\discordapi.java|8381|8387|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8388|8395|iconUrl|param|me.veryobvious.rat.api.discordapi.EmbedObject.Author|Author|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|iconUrl|2
+            @|me\veryobvious\rat\api\discordapi.java|8420|8424|name|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|name
+            @|me\veryobvious\rat\api\discordapi.java|8427|8431|name|param|me.veryobvious.rat.api.discordapi.EmbedObject.Author|Author|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|name|0
+            @|me\veryobvious\rat\api\discordapi.java|8454|8457|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|url
+            @|me\veryobvious\rat\api\discordapi.java|8460|8463|url|param|me.veryobvious.rat.api.discordapi.EmbedObject.Author|Author|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|url|1
+            @|me\veryobvious\rat\api\discordapi.java|8486|8493|iconUrl|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|iconUrl
+            @|me\veryobvious\rat\api\discordapi.java|8496|8503|iconUrl|param|me.veryobvious.rat.api.discordapi.EmbedObject.Author|Author|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|iconUrl|2
+         Method End: Author(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+         Method Start: getName()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|8547|8554|getName|method|me.veryobvious.rat.api.discordapi.EmbedObject.Author|getName|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|8540|8546|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8582|8586|name|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|name
+         Method End: getName()Ljava/lang/String;
+         Method Start: getUrl()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|8630|8636|getUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Author|getUrl|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|8623|8629|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8664|8667|url|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|url
+         Method End: getUrl()Ljava/lang/String;
+         Method Start: getIconUrl()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|8711|8721|getIconUrl|method|me.veryobvious.rat.api.discordapi.EmbedObject.Author|getIconUrl|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|8704|8710|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8749|8756|iconUrl|field|me.veryobvious.rat.api.discordapi.EmbedObject.Author|iconUrl
+         Method End: getIconUrl()Ljava/lang/String;
+      Class End  : me.veryobvious.rat.api.discordapi.EmbedObject.Author
+      Class Start: me.veryobvious.rat.api.discordapi.EmbedObject.Field
+         @|me\veryobvious\rat\api\discordapi.java|8833|8839|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|8840|8844|name|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|name|
+         @|me\veryobvious\rat\api\discordapi.java|8866|8872|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|8873|8878|value|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|value|
+         @|me\veryobvious\rat\api\discordapi.java|8908|8914|inline|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|inline|
+         Method Start: Field(Ljava/lang/String;Ljava/lang/String;Z)V
+            @|me\veryobvious\rat\api\discordapi.java|8937|8942|Field|method|me.veryobvious.rat.api.discordapi.EmbedObject.Field|Field|(Ljava/lang/String;Ljava/lang/String;Z)V
+            @|me\veryobvious\rat\api\discordapi.java|8943|8949|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8950|8954|name|param|me.veryobvious.rat.api.discordapi.EmbedObject.Field|Field|(Ljava/lang/String;Ljava/lang/String;Z)V|name|0
+            @|me\veryobvious\rat\api\discordapi.java|8956|8962|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|8963|8968|value|param|me.veryobvious.rat.api.discordapi.EmbedObject.Field|Field|(Ljava/lang/String;Ljava/lang/String;Z)V|value|1
+            @|me\veryobvious\rat\api\discordapi.java|8978|8984|inline|param|me.veryobvious.rat.api.discordapi.EmbedObject.Field|Field|(Ljava/lang/String;Ljava/lang/String;Z)V|inline|2
+            @|me\veryobvious\rat\api\discordapi.java|9009|9013|name|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|name
+            @|me\veryobvious\rat\api\discordapi.java|9016|9020|name|param|me.veryobvious.rat.api.discordapi.EmbedObject.Field|Field|(Ljava/lang/String;Ljava/lang/String;Z)V|name|0
+            @|me\veryobvious\rat\api\discordapi.java|9043|9048|value|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|value
+            @|me\veryobvious\rat\api\discordapi.java|9051|9056|value|param|me.veryobvious.rat.api.discordapi.EmbedObject.Field|Field|(Ljava/lang/String;Ljava/lang/String;Z)V|value|1
+            @|me\veryobvious\rat\api\discordapi.java|9079|9085|inline|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|inline
+            @|me\veryobvious\rat\api\discordapi.java|9088|9094|inline|param|me.veryobvious.rat.api.discordapi.EmbedObject.Field|Field|(Ljava/lang/String;Ljava/lang/String;Z)V|inline|2
+         Method End: Field(Ljava/lang/String;Ljava/lang/String;Z)V
+         Method Start: getName()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|9138|9145|getName|method|me.veryobvious.rat.api.discordapi.EmbedObject.Field|getName|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|9131|9137|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|9173|9177|name|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|name
+         Method End: getName()Ljava/lang/String;
+         Method Start: getValue()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|9221|9229|getValue|method|me.veryobvious.rat.api.discordapi.EmbedObject.Field|getValue|()Ljava/lang/String;
+            @|me\veryobvious\rat\api\discordapi.java|9214|9220|String|class|java.lang.String
+            @|me\veryobvious\rat\api\discordapi.java|9257|9262|value|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|value
+         Method End: getValue()Ljava/lang/String;
+         Method Start: isInline()Z
+            @|me\veryobvious\rat\api\discordapi.java|9307|9315|isInline|method|me.veryobvious.rat.api.discordapi.EmbedObject.Field|isInline|()Z
+            @|me\veryobvious\rat\api\discordapi.java|9343|9349|inline|field|me.veryobvious.rat.api.discordapi.EmbedObject.Field|inline
+         Method End: isInline()Z
+      Class End  : me.veryobvious.rat.api.discordapi.EmbedObject.Field
+   Class End  : me.veryobvious.rat.api.discordapi.EmbedObject
+   Class Start: me.veryobvious.rat.api.discordapi.JSONObject
+      @|me\veryobvious\rat\api\discordapi.java|9444|9450|String|class|java.lang.String
+      @|me\veryobvious\rat\api\discordapi.java|9452|9458|Object|class|java.lang.Object
+      @|me\veryobvious\rat\api\discordapi.java|9436|9443|HashMap|class|java.util.HashMap
+      @|me\veryobvious\rat\api\discordapi.java|9460|9463|map|field|me.veryobvious.rat.api.discordapi.JSONObject|map|
+      @|me\veryobvious\rat\api\discordapi.java|9470|9477|HashMap|class|java.util.HashMap
+      Method Start: put(Ljava/lang/String;Ljava/lang/Object;)V
+         @|me\veryobvious\rat\api\discordapi.java|9497|9500|put|method|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V
+         @|me\veryobvious\rat\api\discordapi.java|9501|9507|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|9508|9511|key|param|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V|key|0
+         @|me\veryobvious\rat\api\discordapi.java|9513|9519|Object|class|java.lang.Object
+         @|me\veryobvious\rat\api\discordapi.java|9520|9525|value|param|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V|value|1
+         @|me\veryobvious\rat\api\discordapi.java|9545|9550|value|param|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V|value|1
+         @|me\veryobvious\rat\api\discordapi.java|9578|9581|map|field|me.veryobvious.rat.api.discordapi.JSONObject|map
+         @|me\veryobvious\rat\api\discordapi.java|9582|9585|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|me\veryobvious\rat\api\discordapi.java|9586|9589|key|param|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V|key|0
+         @|me\veryobvious\rat\api\discordapi.java|9591|9596|value|param|me.veryobvious.rat.api.discordapi.JSONObject|put|(Ljava/lang/String;Ljava/lang/Object;)V|value|1
+      Method End: put(Ljava/lang/String;Ljava/lang/Object;)V
+      Method Start: toString()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|9664|9672|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|9657|9663|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|9689|9702|StringBuilder|class|java.lang.StringBuilder
+         @|me\veryobvious\rat\api\discordapi.java|9717|9730|StringBuilder|class|java.lang.StringBuilder
+         @|me\veryobvious\rat\api\discordapi.java|9746|9749|Set|class|java.util.Set
+         @|me\veryobvious\rat\api\discordapi.java|9750|9759|Map.Entry|class|java.util.Map.Entry
+         @|me\veryobvious\rat\api\discordapi.java|9760|9766|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|9768|9774|Object|class|java.lang.Object
+         @|me\veryobvious\rat\api\discordapi.java|9788|9791|map|field|me.veryobvious.rat.api.discordapi.JSONObject|map
+         @|me\veryobvious\rat\api\discordapi.java|9792|9800|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
+         @|me\veryobvious\rat\api\discordapi.java|9824|9830|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|9878|9887|Map.Entry|class|java.util.Map.Entry
+         @|me\veryobvious\rat\api\discordapi.java|9888|9894|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|9896|9902|Object|class|java.lang.Object
+         @|me\veryobvious\rat\api\discordapi.java|9940|9946|Object|class|java.lang.Object
+         @|me\veryobvious\rat\api\discordapi.java|9959|9967|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+         @|me\veryobvious\rat\api\discordapi.java|9995|10001|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10002|10007|quote|method|me.veryobvious.rat.api.discordapi.JSONObject|quote|(Ljava/lang/String;)Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|10014|10020|getKey|method|java.util.Map.Entry|getKey|()Ljava/lang/Object;
+         @|me\veryobvious\rat\api\discordapi.java|10025|10031|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10074|10080|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|10112|10118|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10119|10124|quote|method|me.veryobvious.rat.api.discordapi.JSONObject|quote|(Ljava/lang/String;)Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|10125|10131|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|10132|10139|valueOf|method|java.lang.String|valueOf|(Ljava/lang/Object;)Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|10190|10197|Integer|class|java.lang.Integer
+         @|me\veryobvious\rat\api\discordapi.java|10229|10235|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/Object;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10236|10243|Integer|class|java.lang.Integer
+         @|me\veryobvious\rat\api\discordapi.java|10244|10251|valueOf|method|java.lang.Integer|valueOf|(Ljava/lang/String;)Ljava/lang/Integer;
+         @|me\veryobvious\rat\api\discordapi.java|10252|10258|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|10259|10266|valueOf|method|java.lang.String|valueOf|(Ljava/lang/Object;)Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|10317|10324|Boolean|class|java.lang.Boolean
+         @|me\veryobvious\rat\api\discordapi.java|10356|10362|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/Object;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10411|10421|JSONObject|class|me.veryobvious.rat.api.discordapi.JSONObject
+         @|me\veryobvious\rat\api\discordapi.java|10453|10459|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10464|10472|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|10508|10516|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
+         @|me\veryobvious\rat\api\discordapi.java|10519|10526|isArray|method|java.lang.Class|isArray|()Z
+         @|me\veryobvious\rat\api\discordapi.java|10560|10566|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10603|10608|Array|class|java.lang.reflect.Array
+         @|me\veryobvious\rat\api\discordapi.java|10609|10618|getLength|method|java.lang.reflect.Array|getLength|(Ljava/lang/Object;)I
+         @|me\veryobvious\rat\api\discordapi.java|10709|10715|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10716|10721|Array|class|java.lang.reflect.Array
+         @|me\veryobvious\rat\api\discordapi.java|10722|10725|get|method|java.lang.reflect.Array|get|(Ljava/lang/Object;I)Ljava/lang/Object;
+         @|me\veryobvious\rat\api\discordapi.java|10734|10742|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|10746|10752|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10829|10835|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10885|10891|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+         @|me\veryobvious\rat\api\discordapi.java|10908|10912|size|method|java.util.Collection|size|()I
+         @|me\veryobvious\rat\api\discordapi.java|10971|10979|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      Method End: toString()Ljava/lang/String;
+      Method Start: quote(Ljava/lang/String;)Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|11017|11022|quote|method|me.veryobvious.rat.api.discordapi.JSONObject|quote|(Ljava/lang/String;)Ljava/lang/String;
+         @|me\veryobvious\rat\api\discordapi.java|11010|11016|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|11023|11029|String|class|java.lang.String
+         @|me\veryobvious\rat\api\discordapi.java|11030|11036|string|param|me.veryobvious.rat.api.discordapi.JSONObject|quote|(Ljava/lang/String;)Ljava/lang/String;|string|0
+         @|me\veryobvious\rat\api\discordapi.java|11066|11072|string|param|me.veryobvious.rat.api.discordapi.JSONObject|quote|(Ljava/lang/String;)Ljava/lang/String;|string|0
+      Method End: quote(Ljava/lang/String;)Ljava/lang/String;
+   Class End  : me.veryobvious.rat.api.discordapi.JSONObject
+Class End  : me.veryobvious.rat.api.discordapi
+endProcessing me\veryobvious\rat\api\discordapi.java
+
+processing me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java
+@|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|8|46|me.veryobvious.rat.grabbers.chromeshit|package|me.veryobvious.rat.grabbers.chromeshit|(file)
+Class Start: me.veryobvious.rat.grabbers.chromeshit.chromeHandler
+   Method Start: uploadDupe(Ljava/lang/String;)V
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|630|640|uploadDupe|method|me.veryobvious.rat.grabbers.chromeshit.chromeHandler|uploadDupe|(Ljava/lang/String;)V
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|660|671|IOException|class|java.io.IOException
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|641|647|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|648|651|loc|param|me.veryobvious.rat.grabbers.chromeshit.chromeHandler|uploadDupe|(Ljava/lang/String;)V|loc|0
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|685|692|Process|class|java.lang.Process
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|703|710|Runtime|class|java.lang.Runtime
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|711|721|getRuntime|method|java.lang.Runtime|getRuntime|()Ljava/lang/Runtime;
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|724|728|exec|method|java.lang.Runtime|exec|(Ljava/lang/String;)Ljava/lang/Process;
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|750|753|loc|param|me.veryobvious.rat.grabbers.chromeshit.chromeHandler|uploadDupe|(Ljava/lang/String;)V|loc|0
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|799|813|BufferedReader|class|java.io.BufferedReader
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|827|841|BufferedReader|class|java.io.BufferedReader
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|846|863|InputStreamReader|class|java.io.InputStreamReader
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|872|886|getInputStream|method|java.lang.Process|getInputStream|()Ljava/io/InputStream;
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|895|901|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|938|946|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|977|981|Main|class|me.veryobvious.rat.Main
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|982|995|dataGrabbings|field|me.veryobvious.rat.Main|dataGrabbings
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|998|1002|Main|class|me.veryobvious.rat.Main
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|1003|1016|dataGrabbings|field|me.veryobvious.rat.Main|dataGrabbings
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|1026|1029|loc|param|me.veryobvious.rat.grabbers.chromeshit.chromeHandler|uploadDupe|(Ljava/lang/String;)V|loc|0
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|1068|1079|IOException|class|java.io.IOException
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|1090|1105|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: uploadDupe(Ljava/lang/String;)V
+   Method Start: balls()V
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|1137|1142|balls|method|me.veryobvious.rat.grabbers.chromeshit.chromeHandler|balls|()V
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|1153|1159|Thread|class|java.lang.Thread
+      @|me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java|2801|2806|start|method|java.lang.Thread|start|()V
+   Method End: balls()V
+Class End  : me.veryobvious.rat.grabbers.chromeshit.chromeHandler
+endProcessing me\veryobvious\rat\grabbers\chromeshit\chromeHandler.java
+
+processing me\veryobvious\rat\grabbers\discordtoken.java
+@|me\veryobvious\rat\grabbers\discordtoken.java|8|35|me.veryobvious.rat.grabbers|package|me.veryobvious.rat.grabbers|(file)
+Class Start: me.veryobvious.rat.grabbers.discordtoken
+   Method Start: getDiscordToken()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1236|1251|getDiscordToken|method|me.veryobvious.rat.grabbers.discordtoken|getDiscordToken|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1229|1235|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1264|1270|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1350|1359|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1365|1374|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1375|1387|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1420|1425|Files|class|java.nio.file.Files
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1426|1437|isDirectory|method|java.nio.file.Files|isDirectory|(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1438|1443|Paths|class|java.nio.file.Paths
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1444|1447|get|method|java.nio.file.Paths|get|(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1451|1460|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1461|1470|getParent|method|java.io.File|getParent|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1563|1567|File|class|java.io.File
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1575|1582|Objects|class|java.util.Objects
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1583|1597|requireNonNull|method|java.util.Objects|requireNonNull|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1598|1603|Paths|class|java.nio.file.Paths
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1604|1607|get|method|java.nio.file.Paths|get|(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1611|1620|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1621|1630|getParent|method|java.io.File|getParent|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1667|1673|toFile|method|java.nio.file.Path|toFile|()Ljava/io/File;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1676|1685|listFiles|method|java.io.File|listFiles|()[Ljava/io/File;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1721|1728|getName|method|java.io.File|getName|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1731|1739|endsWith|method|java.lang.String|endsWith|(Ljava/lang/String;)Z
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1775|1785|FileReader|class|java.io.FileReader
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1795|1805|FileReader|class|java.io.FileReader
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1837|1851|BufferedReader|class|java.io.BufferedReader
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1861|1875|BufferedReader|class|java.io.BufferedReader
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1905|1911|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1946|1959|StringBuilder|class|java.lang.StringBuilder
+      @|me\veryobvious\rat\grabbers\discordtoken.java|1973|1986|StringBuilder|class|java.lang.StringBuilder
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2037|2045|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2065|2071|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2155|2160|close|method|java.lang.AutoCloseable|close|()V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2191|2196|close|method|java.lang.AutoCloseable|close|()V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2225|2232|Pattern|class|java.util.regex.Pattern
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2243|2250|Pattern|class|java.util.regex.Pattern
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2251|2258|compile|method|java.util.regex.Pattern|compile|(Ljava/lang/String;)Ljava/util/regex/Pattern;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2331|2338|Matcher|class|java.util.regex.Matcher
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2357|2364|matcher|method|java.util.regex.Pattern|matcher|(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2372|2380|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2422|2426|find|method|java.util.regex.Matcher|find|()Z
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2543|2549|Cipher|class|javax.crypto.Cipher
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2550|2572|getMaxAllowedKeyLength|method|javax.crypto.Cipher|getMaxAllowedKeyLength|(Ljava/lang/String;)I
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2621|2626|Class|class|java.lang.Class
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2639|2644|Class|class|java.lang.Class
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2645|2652|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2732|2743|Constructor|class|java.lang.reflect.Constructor
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2760|2782|getDeclaredConstructor|method|java.lang.Class|getDeclaredConstructor|([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2822|2835|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2875|2881|Object|class|java.lang.Object
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2912|2923|newInstance|method|java.lang.reflect.Constructor|newInstance|([Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2959|2964|Field|class|java.lang.reflect.Field
+      @|me\veryobvious\rat\grabbers\discordtoken.java|2976|2992|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3043|3056|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3098|3108|setBoolean|method|java.lang.reflect.Field|setBoolean|(Ljava/lang/Object;Z)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3183|3188|Class|class|java.lang.Class
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3189|3196|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3277|3299|getDeclaredConstructor|method|java.lang.Class|getDeclaredConstructor|([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3339|3352|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3392|3398|Object|class|java.lang.Object
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3420|3431|newInstance|method|java.lang.reflect.Constructor|newInstance|([Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3478|3494|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3539|3552|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3594|3597|Map|class|java.util.Map
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3601|3604|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3622|3625|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3699|3704|Class|class|java.lang.Class
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3705|3712|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3792|3808|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3861|3874|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3914|3919|Field|class|java.lang.reflect.Field
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3925|3930|Field|class|java.lang.reflect.Field
+      @|me\veryobvious\rat\grabbers\discordtoken.java|3937|3953|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4003|4016|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4059|4065|setInt|method|java.lang.reflect.Field|setInt|(Ljava/lang/Object;I)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4071|4083|getModifiers|method|java.lang.reflect.Member|getModifiers|()I
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4089|4097|Modifier|class|java.lang.reflect.Modifier
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4098|4103|FINAL|field|java.lang.reflect.Modifier|FINAL
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4140|4143|set|method|java.lang.reflect.Field|set|(Ljava/lang/Object;Ljava/lang/Object;)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4312|4317|group|method|java.util.regex.MatchResult|group|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4320|4325|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4345|4353|getBytes|method|java.lang.String|getBytes|()[B
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4385|4395|JsonObject|class|com.google.gson.JsonObject
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4407|4411|Gson|class|com.google.gson.Gson
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4414|4422|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4427|4433|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4434|4439|Files|class|java.nio.file.Files
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4440|4452|readAllBytes|method|java.nio.file.Files|readAllBytes|(Ljava/nio/file/Path;)[B
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4453|4458|Paths|class|java.nio.file.Paths
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4459|4462|get|method|java.nio.file.Paths|get|(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4466|4475|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4476|4485|getParent|method|java.io.File|getParent|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4515|4525|JsonObject|class|com.google.gson.JsonObject
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4573|4588|getAsJsonObject|method|com.google.gson.JsonObject|getAsJsonObject|(Ljava/lang/String;)Lcom/google/gson/JsonObject;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4601|4604|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4622|4633|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4636|4644|getBytes|method|java.lang.String|getBytes|()[B
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4682|4688|Base64|class|java.util.Base64
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4689|4699|getDecoder|method|java.util.Base64|getDecoder|()Ljava/util/Base64$Decoder;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4702|4708|decode|method|java.util.Base64.Decoder|decode|([B)[B
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4749|4755|Arrays|class|java.util.Arrays
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4756|4767|copyOfRange|method|java.util.Arrays|copyOfRange|([BII)[B
+      Field: Array Length, skipping
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4823|4834|Crypt32Util|class|com.sun.jna.platform.win32.Crypt32Util
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4835|4853|cryptUnprotectData|method|com.sun.jna.platform.win32.Crypt32Util|cryptUnprotectData|([B)[B
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4940|4946|Base64|class|java.util.Base64
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4947|4957|getDecoder|method|java.util.Base64|getDecoder|()Ljava/util/Base64$Decoder;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|4960|4966|decode|method|java.util.Base64.Decoder|decode|([B)[B
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5049|5055|Cipher|class|javax.crypto.Cipher
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5065|5071|Cipher|class|javax.crypto.Cipher
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5072|5083|getInstance|method|javax.crypto.Cipher|getInstance|(Ljava/lang/String;)Ljavax/crypto/Cipher;
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5141|5145|init|method|javax.crypto.Cipher|init|(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5146|5152|Cipher|class|javax.crypto.Cipher
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5153|5165|DECRYPT_MODE|field|javax.crypto.Cipher|DECRYPT_MODE
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5171|5184|SecretKeySpec|class|javax.crypto.spec.SecretKeySpec
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5202|5218|GCMParameterSpec|class|javax.crypto.spec.GCMParameterSpec
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5224|5230|Arrays|class|java.util.Arrays
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5231|5242|copyOfRange|method|java.util.Arrays|copyOfRange|([BII)[B
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5309|5316|doFinal|method|javax.crypto.Cipher|doFinal|([B)[B
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5317|5323|Arrays|class|java.util.Arrays
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5324|5335|copyOfRange|method|java.util.Arrays|copyOfRange|([BII)[B
+      Field: Array Length, skipping
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5479|5487|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5492|5498|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5504|5520|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5521|5526|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5545|5551|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5557|5573|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5574|5579|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5679|5688|Exception|class|java.lang.Exception
+      @|me\veryobvious\rat\grabbers\discordtoken.java|5708|5723|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: getDiscordToken()Ljava/lang/String;
+Class End  : me.veryobvious.rat.grabbers.discordtoken
+endProcessing me\veryobvious\rat\grabbers\discordtoken.java
+
+processing me\veryobvious\rat\grabbers\minecraft.java
+@|me\veryobvious\rat\grabbers\minecraft.java|8|35|me.veryobvious.rat.grabbers|package|me.veryobvious.rat.grabbers|(file)
+Class Start: me.veryobvious.rat.grabbers.minecraft
+   @|me\veryobvious\rat\grabbers\minecraft.java|218|227|Minecraft|class|net.minecraft.client.Minecraft
+   @|me\veryobvious\rat\grabbers\minecraft.java|228|237|minecraft|field|me.veryobvious.rat.grabbers.minecraft|minecraft|
+   @|me\veryobvious\rat\grabbers\minecraft.java|240|249|Minecraft|class|net.minecraft.client.Minecraft
+   @|me\veryobvious\rat\grabbers\minecraft.java|250|262|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   Method Start: getSession()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\minecraft.java|291|301|getSession|method|me.veryobvious.rat.grabbers.minecraft|getSession|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\minecraft.java|284|290|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\minecraft.java|332|338|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\minecraft.java|346|355|minecraft|field|me.veryobvious.rat.grabbers.minecraft|minecraft
+      @|me\veryobvious\rat\grabbers\minecraft.java|356|366|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+      @|me\veryobvious\rat\grabbers\minecraft.java|369|377|getToken|method|net.minecraft.util.Session|getToken|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\minecraft.java|397|403|Loader|class|net.minecraftforge.fml.common.Loader
+      @|me\veryobvious\rat\grabbers\minecraft.java|404|415|isModLoaded|method|net.minecraftforge.fml.common.Loader|isModLoaded|(Ljava/lang/String;)Z
+      @|me\veryobvious\rat\grabbers\minecraft.java|454|460|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\minecraft.java|462|478|ReflectionHelper|class|net.minecraftforge.fml.relauncher.ReflectionHelper
+      @|me\veryobvious\rat\grabbers\minecraft.java|479|488|findField|method|net.minecraftforge.fml.relauncher.ReflectionHelper|findField|(Ljava/lang/Class;[Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|me\veryobvious\rat\grabbers\minecraft.java|489|494|Class|class|java.lang.Class
+      @|me\veryobvious\rat\grabbers\minecraft.java|495|502|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|me\veryobvious\rat\grabbers\minecraft.java|577|580|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\veryobvious\rat\grabbers\minecraft.java|640|649|Exception|class|java.lang.Exception
+      @|me\veryobvious\rat\grabbers\minecraft.java|669|684|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: getSession()Ljava/lang/String;
+   Method Start: getUuid()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\minecraft.java|751|758|getUuid|method|me.veryobvious.rat.grabbers.minecraft|getUuid|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\minecraft.java|744|750|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\minecraft.java|771|777|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\minecraft.java|785|794|minecraft|field|me.veryobvious.rat.grabbers.minecraft|minecraft
+      @|me\veryobvious\rat\grabbers\minecraft.java|795|805|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+      @|me\veryobvious\rat\grabbers\minecraft.java|808|818|getProfile|method|net.minecraft.util.Session|getProfile|()Lcom/mojang/authlib/GameProfile;
+      @|me\veryobvious\rat\grabbers\minecraft.java|821|826|getId|method|com.mojang.authlib.GameProfile|getId|()Ljava/util/UUID;
+      @|me\veryobvious\rat\grabbers\minecraft.java|829|837|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+   Method End: getUuid()Ljava/lang/String;
+   Method Start: getUsername()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\minecraft.java|894|905|getUsername|method|me.veryobvious.rat.grabbers.minecraft|getUsername|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\minecraft.java|887|893|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\minecraft.java|918|924|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\minecraft.java|936|945|minecraft|field|me.veryobvious.rat.grabbers.minecraft|minecraft
+      @|me\veryobvious\rat\grabbers\minecraft.java|946|956|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+      @|me\veryobvious\rat\grabbers\minecraft.java|959|969|getProfile|method|net.minecraft.util.Session|getProfile|()Lcom/mojang/authlib/GameProfile;
+      @|me\veryobvious\rat\grabbers\minecraft.java|972|979|getName|method|com.mojang.authlib.GameProfile|getName|()Ljava/lang/String;
+   Method End: getUsername()Ljava/lang/String;
+Class End  : me.veryobvious.rat.grabbers.minecraft
+endProcessing me\veryobvious\rat\grabbers\minecraft.java
+
+processing me\veryobvious\rat\grabbers\misc.java
+@|me\veryobvious\rat\grabbers\misc.java|8|35|me.veryobvious.rat.grabbers|package|me.veryobvious.rat.grabbers|(file)
+Class Start: me.veryobvious.rat.grabbers.misc
+   Method Start: getIp()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|170|175|getIp|method|me.veryobvious.rat.grabbers.misc|getIp|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|163|169|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\misc.java|206|212|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\misc.java|222|236|BufferedReader|class|java.io.BufferedReader
+      @|me\veryobvious\rat\grabbers\misc.java|241|258|InputStreamReader|class|java.io.InputStreamReader
+      @|me\veryobvious\rat\grabbers\misc.java|263|266|URL|class|java.net.URL
+      @|me\veryobvious\rat\grabbers\misc.java|301|311|openStream|method|java.net.URL|openStream|()Ljava/io/InputStream;
+      @|me\veryobvious\rat\grabbers\misc.java|316|324|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|364|373|Exception|class|java.lang.Exception
+      @|me\veryobvious\rat\grabbers\misc.java|393|408|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: getIp()Ljava/lang/String;
+   Method Start: getSysname()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|479|489|getSysname|method|me.veryobvious.rat.grabbers.misc|getSysname|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|472|478|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\misc.java|520|526|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\misc.java|537|543|System|class|java.lang.System
+      @|me\veryobvious\rat\grabbers\misc.java|544|555|getProperty|method|java.lang.System|getProperty|(Ljava/lang/String;)Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|615|624|Exception|class|java.lang.Exception
+      @|me\veryobvious\rat\grabbers\misc.java|644|659|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: getSysname()Ljava/lang/String;
+   Method Start: getSysos()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|730|738|getSysos|method|me.veryobvious.rat.grabbers.misc|getSysos|()Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|723|729|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\misc.java|769|775|String|class|java.lang.String
+      @|me\veryobvious\rat\grabbers\misc.java|784|790|System|class|java.lang.System
+      @|me\veryobvious\rat\grabbers\misc.java|791|802|getProperty|method|java.lang.System|getProperty|(Ljava/lang/String;)Ljava/lang/String;
+      @|me\veryobvious\rat\grabbers\misc.java|858|867|Exception|class|java.lang.Exception
+      @|me\veryobvious\rat\grabbers\misc.java|887|902|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: getSysos()Ljava/lang/String;
+Class End  : me.veryobvious.rat.grabbers.misc
+endProcessing me\veryobvious\rat\grabbers\misc.java
+
